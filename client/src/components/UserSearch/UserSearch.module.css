@@ -1,0 +1,53 @@
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.closeButton {
+    height: 46px;
+    border-radius: 100%;
+    border: 0;
+    margin-left: 5px;
+    flex-grow: 0;
+    flex-basis: 46px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url("../../assets/arrow-left.png");
+    background-color: var(--neutral-background);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.closeButton:active {
+    box-shadow: 0px 0px 3px 1px silver;
+}
+
+.input {
+    width: 80%;
+    flex-grow: 1;
+    margin: 10px auto;
+    display: inline-block;
+    height: 25px;
+    border-radius: 9px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: var(--primary-background);
+    padding: 10px;
+    border: 0.5px solid rgba(192, 192, 192, 0.3);
+    color: var(--primary-text);
+    font-size: 16px;
+    outline: none;
+}
+
+.results {
+    position: absolute;
+    background: var(--neutral-background);
+    width: 400px;
+    height: 100%;
+}
+
+.instruction {
+    margin-left: 10px;
+}

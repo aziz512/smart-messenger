@@ -1,0 +1,22 @@
+.leftCol {
+    width: calc(100% - 300px);
+    display: inline-block;
+    height: 100%;
+    background: var(--primary-background);
+    color: var(--primary-text);
+    
+}
+
+.rightCol {
+    width: 300px;
+    display: inline-block;
+}
+
+.leftCol,
+.rightCol {
+    vertical-align: top;
+}
+
+.container {
+    height: 100%;
+}

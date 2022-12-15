@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+    height: 100%;
+    background: var(--neutral-background);
+    overflow: hidden;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --secondary-text: #71777d;
+    --neutral-background: #fff;
+    --primary-background: rgb(182, 248, 206);
+    --primary-text: black;
+    --accent-color: #3498db;
+}

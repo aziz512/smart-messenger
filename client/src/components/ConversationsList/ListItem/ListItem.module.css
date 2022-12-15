@@ -1,0 +1,42 @@
+.listItem {
+    padding: 15px 10px;
+    cursor: pointer;
+    color: var(--primary-text);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profileCircle {
+    background-color: #54a805;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    background: var(--accent-color);
+    color: white;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.purple {
+    background-color: #ff1178;
+}
+.red {
+    background-color: #fe0000;
+}
+.yellow {
+    background-color: #cdc204;
+}
+.green {
+    background-color: #54a805;
+}

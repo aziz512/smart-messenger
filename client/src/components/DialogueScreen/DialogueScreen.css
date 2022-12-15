@@ -1,0 +1,39 @@
+.message-history {
+    overflow-y: scroll;
+    flex-basis: 0px;
+    flex-grow: 1;
+    scroll-behavior: smooth;
+    padding: 0 20%;
+}
+
+.message {
+    width: max-content;
+    max-width: 70%;
+    min-width: 140px;
+    background-color: var(--neutral-background);
+    border-radius: 10px;
+    color: var(--primary-text);
+    padding: 10px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+.message-enter {
+    flex: 0 0 95px;
+    display: block;
+    position: relative;
+}
+
+.message.right {
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: var(--accent-color);
+    color: var(--neutral-background);
+}
+.message.left[data-sentiment='0'] {
+    color: #cbd1d8;
+}
+.message.left[data-sentiment='2'] {
+    color: var(--accent-color);
+    font-weight: bold;
+}
